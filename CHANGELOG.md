@@ -1,3 +1,11 @@
+## 4.6.2
+
+This version will keep use sdk version ">=2.12.0 <3.0.0"
+
+#### Android
+- Fixes issue with caching on android
+- Files will be retrieved without caching to avoid delay (Only cached if paths cannot be retrieved directly )
+
 ## 4.6.1
 
 #### iOS
